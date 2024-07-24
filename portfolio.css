@@ -1,0 +1,319 @@
+*{
+    background-image: url(port.jpg);
+    
+    
+}
+nav #ico{ color: chocolate;
+    padding-left: 10px;
+}
+a{   color: brown;
+    margin-left: 215px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{ text-shadow: 3px 2px gainsboro;
+    
+    color: aquamarine;
+    text-decoration-color: blanchedalmond;
+    text-decoration-line: underline;
+}
+
+#one{ font-size: 25px;
+    margin-left: 900px;
+    margin-top: 200px;
+    
+}
+#my{ font-size: 30px;
+    color: chocolate;
+}
+#right{
+    margin-left: 900px;
+    
+    font-style: italic;
+    text-shadow: 1px 1px rgb(173, 70, 70);
+}
+button{ width: 100px;
+    margin-left: 900px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: rgb(200, 115, 17);
+    background-color: rgb(151, 74, 74);
+    cursor: pointer;
+    box-shadow: 5px 3px rgb(148, 98, 98);
+}
+button:hover{
+    background-color: rgb(120, 166, 166);
+    box-shadow: 10px 8px rgb(148, 98, 98);
+}
+
+#image{ margin-left: 260px;
+    margin-top: 110px;
+    width: 345px;
+    height: 345px;
+    border-radius: 100px 0px 100px 0px;
+    border: 3px solid rgb(147, 47, 11);
+    position: absolute;
+    box-shadow: 4px 6px rgb(110, 69, 69); 
+    
+}
+#image img{
+    width: 345px;
+    height: 345px;
+    border-radius: 100px 0px 100px 0px;
+}
+
+.link { width: 500px;
+    height: 50px;
+  margin-left: 800px;
+  margin-top: 25px;
+ 
+}
+#icon{ width: 100px;
+    height: 40px;
+    display:inline-block;
+    
+}
+#icon a{ margin-left: -10px;
+    margin-top: 90px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 6px 6px gainsboro;
+}
+#sec{ margin-top: 10px;
+    color: rgb(170, 106, 55);
+    font-size: 50px;
+    text-shadow: 2px 2px gray;
+}
+
+#about{ margin-left: 5px;
+    font-size: 19px;
+    color: rgb(118, 150, 167);
+    text-align: justify;
+    line-height: 25px;
+    margin-top: -10px;
+} #about span{
+    color: chocolate;
+}
+.link2{
+    width: 710px;
+    height: 100px;
+}
+#icon2{
+    width: 80px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 50px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px gainsboro;
+    border-radius: 10px;
+    color: brown;
+}
+#icon2:hover{ box-shadow: 13px 13px gainsboro;
+    translate: 0px -10px;
+    transition: all 0.5s 0.1s;
+}
+#name{
+    font-size: 12px;
+    margin-top: 50px;
+    
+    color: rgb(174, 121, 16);
+
+}
+
+#rightbox{ position: absolute;
+    width: 600px;
+    height: 200px;
+    border: 1px solid red;
+    margin-left: 850px;
+    margin-top: -375px;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 100px;
+}
+#four{ margin-top: -65px;
+    margin-left: 200px;
+    color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 3px rgb(52, 141, 141);
+}
+#exp1{ height: 20px;
+    width: 180px;
+    background-color: aquamarine;
+   margin-top: -20px;
+   box-shadow: 7px 7px gray;
+    animation: box1 5s ease-in 0.1s 1 normal forwards;
+    border-radius: 20px;
+}
+@keyframes box1{
+    from{  background-color: rgb(188, 192, 190);
+        width: 180px;
+
+    }
+    to{ background-color: rgb(87, 133, 106);
+        width: 500px;
+    }
+}
+#exp2{ height: 20px;
+    width: 180px;
+     background-color: aquamarine;
+     box-shadow: 7px 7px gray;
+    margin-top: 20px;
+    animation: box2 5s linear 0.1s 1 normal forwards;
+    border-radius: 20px;
+}
+@keyframes box2{
+    from{  background-color: rgb(188, 192, 190);
+        width: 180px;
+
+    }
+    to{ background-color: rgb(207, 179, 142);
+        width: 400px;
+    }
+}
+#exp3{ height: 20px;
+    width: 180px;
+    background-color: rgb(188, 192, 190);
+    box-shadow: 7px 7px gray;
+    margin-top: 20px;
+    animation: box3 5s linear 0.1s 1 normal forwards;
+    border-radius: 20px;
+}
+@keyframes box3{
+    from{   background-color: rgb(188, 192, 190);
+        width: 180px;
+
+    }
+    to{ background-color: rgb(166, 111, 173);
+        width: 450px;
+    }
+}
+#exp4{ height: 20px;
+    width: 180px;
+     box-shadow: 7px 7px gray;
+     background-color: rgb(188, 192, 190);
+          margin-top: 20px;
+    animation: box4 5s linear 0.1s 1 normal forwards;
+    border-radius: 20px;
+}
+@keyframes box4{
+    from{   background-color: rgb(188, 192, 190);
+        width: 180px;
+
+    }
+    to{background-color: rgb(143, 186, 25);
+        width: 590px;
+    }
+}
+#in{ margin-left: 15px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: brown;
+    
+}
+  .my{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(199, 107, 26);
+  }
+
+.project{  width: 1400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+     gap: 70px;
+     padding-top: 20px;
+     padding-left: 90px;
+}
+.project span{ font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(210, 150, 30);
+}
+.project #pone{
+    width: 400px;
+    height: 250px;
+    border: 1px solid brown;
+    
+}
+.project #ptwo{
+    width: 400px;
+    height: 250px;
+    border: 1px solid brown;
+    
+}
+.project #pthree{
+    width: 400px;
+    height: 250px;
+    border: 1px solid brown;
+    
+}
+ .foot{ background-color: rgb(154, 38, 38);
+    width: 1500px;
+    height: 100px;
+    
+ }
+ textarea{ width: 400px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 1000px;
+    border: 2px solid chocolate;
+    border-radius: 10px 10px 10px  10px;
+ }
+ 
+
+
+#last i{ 
+    color: rgb(183, 109, 44);
+}
+#btn{ padding-left: 150px;
+    width: 150px;
+    height: 25px;
+    
+    margin-left: 1100px;
+    padding-left: -30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+input{ 
+    padding: 2px;
+}
+input[type="submit"]{ width: 70px;
+    color:brown;
+    border-radius: 10px;
+    box-shadow: 1px 1px gray;
+    background-color: blanchedalmond;
+}
+input[type="submit"]:hover{
+    box-shadow: 2px 2px gray;
+    background-color: rgb(204, 182, 183);
+}
+input[type="reset"]{ width: 70px;
+    color: brown;
+    border-radius: 10px;
+    box-shadow: 1px 1px gray;
+    background-color: blanchedalmond;
+}
+input[type="reset"]:hover{
+    box-shadow: 2px 2px gray;
+    background-color: rgb(204, 182, 183);
+}
+#lastlink{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+#lastlink a{
+     text-decoration: none;
+    font-size: 25px;
+    padding: 2px;
+}
+#lastlink a:hover{
+    color: rgb(164, 114, 78);
+}
+
